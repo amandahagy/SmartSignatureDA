@@ -81,3 +81,4 @@
 /Users/amandahagy/Projects/SmartSignatureDA/SmartSignature/obj/Debug/netcoreapp3.1/SmartSignature.dll
 /Users/amandahagy/Projects/SmartSignatureDA/SmartSignature/obj/Debug/netcoreapp3.1/SmartSignature.pdb
 /Users/amandahagy/Projects/SmartSignatureDA/SmartSignature/obj/Debug/netcoreapp3.1/SmartSignature.genruntimeconfig.cache
+/Users/amandahagy/Projects/SmartSignatureDA/SmartSignature/obj/Debug/netcoreapp3.1/Razor/Views/User/Find.cshtml.g.cs
