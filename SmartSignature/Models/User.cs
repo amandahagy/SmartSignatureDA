@@ -4,26 +4,26 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmartSignature.Models
 {
-    [Table("t_sss_user")]
+    [Table("T_SSS_USER")]
     public class User
     {
         [Key]
-        [Column("ds_caixa_account")]
+        [Column("DS_CAIXA_ACCOUNT")]
         [Required(ErrorMessage = "The Caixa's account is mandatory.")]
         [Display(Name="Caixa's account:")]
         public int CaixaAccount { get; set; } //Caixa's account is the national bank account
         [Required(ErrorMessage = "The password is mandatory.")]
         [Display(Name = "Password:")]
-        [Column("ds_password")]
+        [Column("DS_PASSWORD")]
         public int Password { get; set; }
         [Display(Name = "Full name:")]
-        [Column("nm_name")]
+        [Column("NM_NAME")]
         public string Name { get; set; }
         [Display(Name = "RG:")]
-        [Column("ds_rg")]
+        [Column("DS_RG")]
         public int Rg { get; set; } //RG is the national ID number
         [Display(Name = "CPF:")]
-        [Column("ds_cpf")]
+        [Column("DS_CPF")]
         public long Cpf { get; set; } //CPF is another ID number for Brazilian citizens
     }
 }
