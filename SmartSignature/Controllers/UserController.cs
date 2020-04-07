@@ -63,12 +63,12 @@ namespace SmartSignature.Controllers
         }
 
         [HttpGet]
-        public IActionResult Update(int CaixaAccount)
+        public IActionResult Update(int Id)
         {
-            System.Diagnostics.Debug.Print("Checking data about the Caixa's Account " + CaixaAccount);
+            System.Diagnostics.Debug.Print("Checking data about the account #" + Id);
             User user = new User()
             {
-                CaixaAccount = 123456789,
+                CaixaAccount = Id,
                 Password = 123456,
                 Name = "Robert Watson",
                 Rg = 123456789,
@@ -92,7 +92,7 @@ namespace SmartSignature.Controllers
         [HttpGet]
         public IActionResult Find(int Id)
         {
-            System.Diagnostics.Debug.Print("Listing data for Caixa's Account " + Id);
+            System.Diagnostics.Debug.Print("Listing data for account #" + Id);
             User user = new User()
             {
                 CaixaAccount = Id,
@@ -105,9 +105,9 @@ namespace SmartSignature.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int CaixaAccount)
+        public IActionResult Delete(int Id)
         {
-            System.Diagnostics.Debug.Print("Deleting Caixa's Account " + CaixaAccount);
+            System.Diagnostics.Debug.Print("Deleting User #" + Id);
             return RedirectToAction("Index", "User");
         }
     }
