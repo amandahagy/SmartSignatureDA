@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.60, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
