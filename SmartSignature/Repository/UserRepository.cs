@@ -26,7 +26,7 @@ namespace SmartSignature.Repository
             return context.User.Find(id);
         }
 
-        public void Add(User user)
+        public void Insert(User user)
         {
             context.User.Add(user);
             context.SaveChanges();
