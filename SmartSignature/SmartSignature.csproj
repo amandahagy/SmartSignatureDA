@@ -14,12 +14,7 @@
   <ItemGroup>
     <Content Remove="Views\Index.cshtml" />
     <Content Remove="Views\User\Check.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Views\User\Check.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </None>
+    <Content Remove="Views\User\Find.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />

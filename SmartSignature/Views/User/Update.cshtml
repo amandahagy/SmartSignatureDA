@@ -1,0 +1,60 @@
+﻿@model SmartSignature.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Update User</title>
+</head>
+<body>
+    <h1>Update User</h1>
+    <form asp-action="Update" asp-controller="User" method="post">
+        <input type="hidden" asp-for="CaixaAccount" />
+        <div class="form-horizontal">
+            <hr />
+            <div class="form-group">
+                <label>Caixa's account</label>
+                <div class="col-md-10">
+                    <input asp-for="CaixaAccount" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <div class="col-md-10">
+                    <input asp-for="Password" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <div class="col-md-10">
+                    <input asp-for="Name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>RG</label>
+                <div class="col-md-10">
+                    <input asp-for="Rg" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>CPF</label>
+                <div class="col-md-10">
+                    <input asp-for="Cpf" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="reset" value="Clean" class="btn btn-default" />
+                    <input type="submit" value="Save changes" class="btn btn-default" />
+                </div>
+            </div>
+            <hr />
+        </div>
+    </form>
+    <div>
+        <a asp-controller="User" asp-action="Index">Page Back</a>
+    </div>
+</body>
+</html>
