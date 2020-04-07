@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Views\User\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\Context\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Index.cshtml" />

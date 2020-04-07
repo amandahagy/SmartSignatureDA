@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{B5A914EC-FD16-4525-B281-C2B3EB30DA6D}|Default">
   <MonoDevelop.Ide.ItemProperties.SmartSignature PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../.nuget/packages/oracle.entityframeworkcore/2.19.60/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartSignature/Repository/Context/DataBaseContext.cs">
     <Files>
-      <File FileName="../../.nuget/packages/oracle.manageddataaccess.core/2.19.60/readme.txt" Line="1" Column="1" />
-      <File FileName="../../.nuget/packages/oracle.entityframeworkcore/2.19.60/readme.txt" Line="1" Column="1" />
+      <File FileName="SmartSignature/Repository/Context/DataBaseContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SmartSignature" expanded="True">
             <Node name="SmartSignature" expanded="True">
-              <Node name="appsettings.json" selected="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="Context" expanded="True">
+                  <Node name="DataBaseContext.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
