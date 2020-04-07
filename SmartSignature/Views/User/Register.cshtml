@@ -1,0 +1,55 @@
+﻿@model SmartSignature.Models.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register User</title>
+</head>
+<body>
+    <h1>Register User</h1>
+    <form asp-action="Register" asp-controller="User" method="post">
+        <div class="form-horizontal">
+            <hr />
+            @if (!Html.ViewData.ModelState.IsValid)
+            {
+                <div asp-validation-summary="All" class="alert alert-danger"></div>
+            }
+        <div class="form-group">
+            <label asp-for="CaixaAccount" class="control-label"></label>
+            <input asp-for="CaixaAccount" class="form-control col-md-4" />
+            <span asp-validation-for="CaixaAccount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control col-md-4" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control col-md-4" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Rg" class="control-label"></label>
+            <input asp-for="Rg" class="form-control col-md-4" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Cpf" class="control-label"></label>
+            <input asp-for="Cpf" class="form-control col-md-4" />
+        </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="reset" value="Clean" class="btn btn-default" />
+                    <input type="submit" value="Register" class="btn btn-default" />
+                </div>
+            </div>
+            <hr />
+        </div>
+    </form>
+    <div>
+        <a asp-controller="User" asp-action="Index">Page Back</a>
+    </div>
+</body>
+</html>
