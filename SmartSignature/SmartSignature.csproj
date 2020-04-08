@@ -10,6 +10,7 @@
     <Folder Include="Views\User\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\Context\" />
+    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Index.cshtml" />
