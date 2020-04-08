@@ -26,6 +26,6 @@ namespace SmartSignature.Models
         [Display(Name = "CPF:")]
         [Column("DS_CPF")]
         public long Cpf { get; set; } //CPF is another ID number for Brazilian citizens
-        public IList<User> Users { get; set; }
+        public IList<Device> Devices { get; set; }
     }
 }
