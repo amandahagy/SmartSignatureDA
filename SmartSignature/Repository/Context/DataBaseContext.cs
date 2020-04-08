@@ -10,6 +10,7 @@ namespace SmartSignature.Repository.Context
     public class DataBaseContext : DbContext
     {
         public DbSet<User> User { get; set; }
+        public DbSet<Device> Device { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
