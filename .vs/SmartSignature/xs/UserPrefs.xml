@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{B5A914EC-FD16-4525-B281-C2B3EB30DA6D}|Default">
   <MonoDevelop.Ide.ItemProperties.SmartSignature PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SmartSignature/Repository/UserRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartSignature/Models/User.cs">
     <Files>
-      <File FileName="SmartSignature/Controllers/UserController.cs" Line="81" Column="2" />
-      <File FileName="SmartSignature/Models/User.cs" Line="7" Column="2" />
-      <File FileName="SmartSignature/Models/Device.cs" Line="22" Column="6" />
-      <File FileName="SmartSignature/DAL/DeviceDAL.cs" Line="8" Column="2" />
-      <File FileName="SmartSignature/Repository/UserRepository.cs" Line="4" Column="1" />
-      <File FileName="SmartSignature/Repository/Context/DeviceRepository.cs" Line="11" Column="10" />
+      <File FileName="SmartSignature/Models/User.cs" Line="14" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,10 +15,11 @@
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="DAL" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="User.cs" selected="True" />
+              </Node>
               <Node name="Repository" expanded="True">
                 <Node name="Context" expanded="True" />
-                <Node name="UserRepository.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />

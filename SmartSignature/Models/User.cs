@@ -12,7 +12,7 @@ namespace SmartSignature.Models
         [Column("DS_CAIXA_ACCOUNT")]
         [Required(ErrorMessage = "The Caixa's account is mandatory.")]
         [Display(Name="Caixa's account:")]
-        public int CaixaAccount { get; set; } //Caixa's account is the national bank account
+        public int CaixaAccount { get; set; } //Caixa's the national bank account
         [Required(ErrorMessage = "The password is mandatory.")]
         [Display(Name = "Password:")]
         [Column("DS_PASSWORD")]
