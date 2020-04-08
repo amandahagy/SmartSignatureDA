@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace SmartSignature.Models
 {
@@ -25,5 +26,6 @@ namespace SmartSignature.Models
         [Display(Name = "CPF:")]
         [Column("DS_CPF")]
         public long Cpf { get; set; } //CPF is another ID number for Brazilian citizens
+        public IList<User> Users { get; set; }
     }
 }
