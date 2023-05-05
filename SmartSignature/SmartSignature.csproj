@@ -17,7 +17,7 @@
     <Content Remove="Views\User\Check.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.180" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="2.19.60" />
   </ItemGroup>
 </Project>
